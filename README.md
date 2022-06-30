@@ -38,6 +38,8 @@ The [Risks](https://info.juicebox.money/dev/learn/risks) section of the document
 
 ### Core contracts
 
+Please consult the [Juicebox Contracts](https://github.com/jbx-protocol/juice-contracts-v2-code4rena).
+
 Core contracts store all the independent components that make the protocol work. 
 
 - JBTokenStore
