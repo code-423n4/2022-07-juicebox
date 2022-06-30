@@ -25,10 +25,10 @@ If you have questions about the protocol or where to start, don't hesitate to re
 
 | Contact| Discord | Telegram | Twitter|
 | -------- | -------- | -------- | -----|
-| Jango     | jango#0420     | me_jango     | me_jango     |
-|DrGorilla | DrGorilla.eth#8862 |  |
-| LuckyKoala | LuckyKoala#1024 | |
-| Nicholas | nicholas#7777 | nnnnicholas | nnnnicholas |
+| Jango     | jango#0420     | [me_jango](https://t.me/me_jango)     | [me_jango](https://twitter.com/me_jango/)     |
+|DrGorilla | DrGorilla.eth#8862 | [DrGorilla_md](https://t.me/DrGorilla_md) | [DrGorilla_md](https://twitter.com/DrGorilla_md) |
+| LuckyKoala | LuckyKoala#1024 | |[twodam_eth](https://twitter.com/twodam_eth/)|
+| Nicholas | nicholas#7777 | nnnnicholas | [nnnnicholas](https://twitter.com/nnnnicholas) |
 
 ## Contest Scope
 
