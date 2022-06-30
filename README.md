@@ -8,7 +8,7 @@ The protocol is nuanced, however. The goal of the [protocol docs](https://info.j
 ## How to approach the Juicebox Code4rena audit
 The Juicebox protocol is entirely unique. To understand how the protocol works, we *highly* suggest you read through the extensive documentation on http://info.juicebox.money. First, get an overview of the docs in the [Learn](https://info.juicebox.money/dev/learn) section, then dive into the main functional routines in [Build/Basics](https://info.juicebox.money/dev/build/basics). 
 
-Please note: As a flexible and extensible fundraising protocol, Juicebox is aware of many attack vectors that are part of its design. Please make sure when reporting bugs that you are *not* including known risks addressed on the [Risks](https://info.juicebox.money/dev/learn/risks) page of the documentation. 
+Please note: As a flexible and extensible fundraising protocol, Juicebox is aware of many attack vectors that are part of its design. Please make sure when reporting bugs that you are *not* including known risks addressed on the [Risks](https://info.juicebox.money/dev/learn/risks) page of the documentation. If you are unsure if something you've found constitutes a known risk, please feel free to reach out to a member of our team or report it anyway and we will evaluate the validity of the reported bug during the post-contest review phase. 
 
 If you have questions about the protocol or where to start, don't hesitate to reach out in our [Discord](https://discord.gg/juicebox) or DM our development team (see Contact Information below).
 
