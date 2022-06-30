@@ -1,51 +1,18 @@
-# ✨ So you want to sponsor a contest
+# Juicebox Protocol
 
-This `README.md` contains a set of checklists for our contest collaboration.
+## What is Juicebox?
+The Juicebox protocol is a programmable treasury. Projects can use it to configure how its tokens should be minted when it receives funds, and under what conditions those funds can be distributed to preprogrammed addresses or reclaimed by its community. These rules can evolve over funding cycles, allowing people to bootstrap open-ended projects and add structure, constraints, extensions, and incentives over time as needed. The protocol is light enough for a group of friends, yet powerful enough for a global network of anons sharing thousands of ETH, ERC-20s, or other assets.
 
-Your contest will use two repos: 
-- **a _contest_ repo** (this one), which is used for scoping your contest and for providing information to contestants (wardens)
-- **a _findings_ repo**, where issues are submitted (shared with you after the contest) 
+The protocol is nuanced, however. The goal of the [protocol docs](https://info.juicebox.money/) is for you to find any protocol related information that you're looking for. These docs should allow you to click around and get a real good deep dive, and should just as easily allow you to find overview information.
 
-Ultimately, when we launch the contest, this contest repo will be made public and will contain the smart contracts to be reviewed and all the information needed for contest participants. The findings repo will be made public after the contest report is published and your team has mitigated the identified issues.
+## How to approach the Juicebox Code4rena audit
+The Juicebox protocol is entirely unique. To understand how the protocol works, we *highly* suggest you read through the extensive documentation on http://info.juicebox.money. First, get an overview of the docs in the [Learn](https://info.juicebox.money/dev/learn) section, then dive into the main functional routines in [Build/Basics](https://info.juicebox.money/dev/build/basics). 
 
-Some of the checklists in this doc are for **C4 (🐺)** and some of them are for **you as the contest sponsor (⭐️)**.
+Please note: As a flexible and extensible fundraising protocol, Juicebox is aware of many attack vectors that are part of its design. Please make sure when reporting bugs that you are *not* including known risks addressed on the [Risks](https://info.juicebox.money/dev/learn/risks) page of the documentation. 
 
----
+If you have questions about the protocol or where to start, don't hesitate to reach out in our [Discord](https://discord.gg/juicebox) or DM our development team (see Contact Information below).
 
-# Contest setup
-
-## ⭐️ Sponsor: Provide contest details
-
-Under "SPONSORS ADD INFO HERE" heading below, include the following:
-
-- [ ] Name of each contract and:
-  - [ ] source lines of code (excluding blank lines and comments) in each
-  - [ ] external contracts called in each
-  - [ ] libraries used in each
-- [ ] Describe any novel or unique curve logic or mathematical models implemented in the contracts
-- [ ] Does the token conform to the ERC-20 standard? In what specific ways does it differ?
-- [ ] Describe anything else that adds any special logic that makes your approach unique
-- [ ] Identify any areas of specific concern in reviewing the code
-- [ ] Add all of the code to this repo that you want reviewed
-- [ ] Create a PR to this repo with the above changes.
-
----
-
-# Contest prep
-
-## ⭐️ Sponsor: Contest prep
-- [ ] Make sure your code is thoroughly commented using the [NatSpec format](https://docs.soliditylang.org/en/v0.5.10/natspec-format.html#natspec-format).
-- [ ] Modify the bottom of this `README.md` file to describe how your code is supposed to work with links to any relevent documentation and any other criteria/details that the C4 Wardens should keep in mind when reviewing. ([Here's a well-constructed example.](https://github.com/code-423n4/2021-06-gro/blob/main/README.md))
-- [ ] Please have final versions of contracts and documentation added/updated in this repo **no less than 24 hours prior to contest start time.**
-- [ ] Be prepared for a 🚨code freeze🚨 for the duration of the contest — important because it establishes a level playing field. We want to ensure everyone's looking at the same code, no matter when they look during the contest. (Note: this includes your own repo, since a PR can leak alpha to our wardens!)
-- [ ] Promote the contest on Twitter (optional: tag in relevant protocols, etc.)
-- [ ] Share it with your own communities (blog, Discord, Telegram, email newsletters, etc.)
-- [ ] Optional: pre-record a high-level overview of your protocol (not just specific smart contract functions). This saves wardens a lot of time wading through documentation.
-- [ ] Delete this checklist and all text above the line below when you're ready.
-
----
-
-# Juicebox contest details
+## Juicebox contest details
 - $71,250 USDC main award pot
 - $3,750 USDC gas optimization award pot
 - Join [C4 Discord](https://discord.gg/code4rena) to register
@@ -54,4 +21,41 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 - Starts July 1, 2022 20:00 UTC
 - Ends July 8, 2022 20:00 UTC
 
-[ ⭐️ SPONSORS ADD INFO HERE ]
+## Contact Information
+
+| Contact| Discord | Telegram | Twitter|
+| -------- | -------- | -------- | -----|
+| Jango     | jango#0420     | me_jango     | me_jango     |
+|DrGorilla | DrGorilla.eth#8862 |  |
+| LuckyKoala | LuckyKoala#1024 | |
+| Nicholas | nicholas#7777 | nnnnicholas | nnnnicholas |
+
+## Contest Scope
+
+The protocol is made up of 7 core contracts and 3 surface contracts. All of these contracts are **in scope**.
+
+The [Risks](https://info.juicebox.money/dev/learn/risks) section of the documentation describes known risks. Everything listed on this page is **out of scope**. 
+
+### Core contracts
+
+Core contracts store all the independent components that make the protocol work. 
+
+- JBTokenStore
+- JBFundingCycleStore
+- JBProjects
+- JBSplitsStore
+- JBPrices
+- JBOperatorStore
+- JBDirectory
+
+### Surface contracts
+
+Surface contracts glue core contracts together and manage funds. Anyone can write new surface contracts for projects to use.
+
+- JBController
+- JBPayoutRedemptionPaymentTerminal
+  - JBSingleTokenPaymentTerminalStore
+    - JBETHPaymentTerminal
+    - JBERC20PaymentTerminal
+
+For more information on these contracts and how they fit together, please visit the [Architecture](https://info.juicebox.money/dev/learn/architecture) page of the docs. The bonus utility contracts listed at the bottom of this page are out of scope.
