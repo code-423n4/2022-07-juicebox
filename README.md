@@ -1,3 +1,12 @@
+# Juicebox contest details
+- $71,250 USDC main award pot
+- $3,750 USDC gas optimization award pot
+- Join [C4 Discord](https://discord.gg/code4rena) to register
+- Submit findings [using the C4 form](https://code4rena.com/contests/2022-06-juicebox-contest/submit)
+- [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
+- Starts July 1, 2022 20:00 UTC
+- Ends July 8, 2022 20:00 UTC
+
 # Juicebox Protocol
 
 ## What is Juicebox?
@@ -11,15 +20,6 @@ The Juicebox protocol is entirely unique. To understand how the protocol works, 
 Please note: As a flexible and extensible fundraising protocol, Juicebox is aware of many attack vectors that are part of its design. Please make sure when reporting bugs that you are *not* including known risks addressed on the [Risks](https://info.juicebox.money/dev/learn/risks) page of the documentation. If you are unsure if something you've found constitutes a known risk, please feel free to reach out to a member of our team or report it anyway and we will evaluate the validity of the reported bug during the post-contest review phase. 
 
 If you have questions about the protocol or where to start, don't hesitate to reach out in our [Discord](https://discord.gg/juicebox) or DM our development team (see Contact Information below).
-
-## Juicebox contest details
-- $71,250 USDC main award pot
-- $3,750 USDC gas optimization award pot
-- Join [C4 Discord](https://discord.gg/code4rena) to register
-- Submit findings [using the C4 form](https://code4rena.com/contests/2022-06-juicebox-contest/submit)
-- [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
-- Starts July 1, 2022 20:00 UTC
-- Ends July 8, 2022 20:00 UTC
 
 ## Contact Information
 
