@@ -6,7 +6,7 @@
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
 - Starts July 1, 2022 20:00 UTC
 - Ends July 8, 2022 20:00 UTC
-- The [Juicebox contracts are here](https://github.com/jbx-protocol/juice-contracts-v2-code4rena)
+- The [Juicebox contracts](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5) to be audited
 
 # Juicebox Protocol
 
@@ -41,7 +41,7 @@ The [Risks](https://info.juicebox.money/dev/learn/risks) section of the document
 
 ### Core contracts
 
-Consult the [Juicebox Contracts here](https://github.com/jbx-protocol/juice-contracts-v2-code4rena).
+Consult the [Juicebox Contracts here](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5) (commit 828bf2f).
 
 Core contracts store all the independent components that make the protocol work. 
 
