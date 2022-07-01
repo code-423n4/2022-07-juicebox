@@ -74,6 +74,8 @@ The protocol makes 1 external call to Chainlink to find ETH price in USD. If pro
 
 ### Libraries
 
+See the [libraries directory](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5/contracts/libraries). 
+
 - @chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol
 - @openzeppelin/contracts/access/Ownable.sol
 - @openzeppelin/contracts/security/ReentrancyGuard.sol
@@ -87,8 +89,6 @@ The protocol makes 1 external call to Chainlink to find ETH price in USD. If pro
 - @openzeppelin/contracts/utils/introspection/IERC165.sol
 - @paulrberg/contracts/math/PRBMath.sol
 - @paulrberg/contracts/math/PRBMathUD60x18.sol
-
-See the [libraries directory](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5/contracts/libraries). 
 
 ### Source Lines of Code
 |File|SLOC|
