@@ -7,14 +7,14 @@
 - Starts July 1, 2022 20:00 UTC
 - Ends July 8, 2022 20:00 UTC
 
-Watch the [audit intro](https://youtu.be/FMMuuG-g3Ac) to learn more.
-
 # Juicebox Protocol
 
 ## What is Juicebox?
 The Juicebox protocol is a programmable treasury. Projects can use it to configure how its tokens should be minted when it receives funds, and under what conditions those funds can be distributed to preprogrammed addresses or reclaimed by its community. These rules can evolve over funding cycles, allowing people to bootstrap open-ended projects and add structure, constraints, extensions, and incentives over time as needed. The protocol is light enough for a group of friends, yet powerful enough for a global network of anons sharing thousands of ETH, ERC-20s, or other assets.
 
 The protocol is nuanced, however. The goal of the [protocol docs](https://info.juicebox.money/) is for you to find any protocol related information that you're looking for. These docs should allow you to click around and get a real good deep dive, and should just as easily allow you to find overview information.
+
+Watch the [audit intro](https://youtu.be/FMMuuG-g3Ac) to learn more.
 
 ## How to approach the Juicebox Code4rena audit
 The Juicebox protocol is entirely unique. To understand how the protocol works, we *highly* suggest you read through the extensive documentation on http://info.juicebox.money. First, get an overview of the docs in the [Learn](https://info.juicebox.money/dev/learn) section, then dive into the main functional routines in [Build/Basics](https://info.juicebox.money/dev/build/basics). 
