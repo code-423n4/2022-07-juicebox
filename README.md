@@ -24,6 +24,9 @@ Please note: As a flexible and extensible fundraising protocol, Juicebox is awar
 
 If you have questions about the protocol or where to start, don't hesitate to reach out in our [Discord](https://discord.gg/juicebox) or DM our development team (see Contact Information below).
 
+## How to setup the project
+Go to the [Juicebox Code4rena repo](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5) and follow instructions in the readme.
+
 ## Contact Information
 
 | Contact| Discord | Telegram | Twitter|
