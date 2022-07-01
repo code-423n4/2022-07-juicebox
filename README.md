@@ -63,6 +63,9 @@ Surface contracts glue core contracts together and manage funds. Anyone can writ
     - JBETHPaymentTerminal
     - JBERC20PaymentTerminal
 
+### Interfaces
+All interfaces are in scope.
+
 For more information on these contracts and how they fit together, please visit the [Architecture](https://info.juicebox.money/dev/learn/architecture) page of the docs. The bonus utility contracts listed at the bottom of this page are out of scope.
 
 ### External calls
@@ -71,9 +74,23 @@ The protocol makes 1 external call to Chainlink to find ETH price in USD. If pro
 
 ### Libraries
 
-Libraries: 5 + (5 libraries that only define constants). See the [libraries directory](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5/contracts/libraries). 
+@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol
+@openzeppelin/contracts/access/Ownable.sol
+@openzeppelin/contracts/security/ReentrancyGuard.sol
+@openzeppelin/contracts/token/ERC20/IERC20.sol
+@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol
+@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol
+@openzeppelin/contracts/token/ERC721/IERC721.sol
+@openzeppelin/contracts/token/ERC721/extensions/draft-ERC721Votes.sol
+@openzeppelin/contracts/utils/Address.sol
+@openzeppelin/contracts/utils/introspection/ERC165.sol
+@openzeppelin/contracts/utils/introspection/IERC165.sol
+@paulrberg/contracts/math/PRBMath.sol
+@paulrberg/contracts/math/PRBMathUD60x18.sol
 
-### SLOC
+See the [libraries directory](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5/contracts/libraries). 
+
+### Source Lines of Code
 |File|SLOC|
 |-|-|
 |contracts/JBTokenStore.sol| 135 |
