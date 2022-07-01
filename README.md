@@ -65,8 +65,16 @@ Surface contracts glue core contracts together and manage funds. Anyone can writ
 
 For more information on these contracts and how they fit together, please visit the [Architecture](https://info.juicebox.money/dev/learn/architecture) page of the docs. The bonus utility contracts listed at the bottom of this page are out of scope.
 
+### External calls
 
-|File|sLOC|
+The protocol makes 1 external call to Chainlink to find ETH price in USD. If projects bring their own ERC-20, then the protocol will make calls to that contract.
+
+### Libraries
+
+Libraries: 5 + (5 libraries that only define constants). See the [libraries directory](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5/contracts/libraries). 
+
+### SLOC
+|File|SLOC|
 |-|-|
 |contracts/JBTokenStore.sol| 135 |
 |contracts/JBFundingCycleStore.sol| 287 |
