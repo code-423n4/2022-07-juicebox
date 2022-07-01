@@ -64,3 +64,20 @@ Surface contracts glue core contracts together and manage funds. Anyone can writ
     - JBERC20PaymentTerminal
 
 For more information on these contracts and how they fit together, please visit the [Architecture](https://info.juicebox.money/dev/learn/architecture) page of the docs. The bonus utility contracts listed at the bottom of this page are out of scope.
+
+
+|File|sLOC|
+|-|-|
+|contracts/JBTokenStore.sol| 135 |
+|contracts/JBFundingCycleStore.sol| 287 |
+|contracts/JBProjects.sol| 42 |
+|contracts/JBSplitsStore.sol| 101 |
+|contracts/JBPrices.sol| 26 | 
+|contracts/JBOperatorStore.sol| 50 |
+|contracts/JBDirectory.sol| 93 |
+|contracts/JBController.sol| 361 |
+|contracts/abstract/JBPayoutRedemptionPaymentTerminal.sol| 598 |
+|contracts/JBSingleTokenPaymentTerminalStore.sol| 314 |
+|contracts/JBETHPaymentTerminal.sol| 39 |
+|contracts/JBERC20PaymentTerminal.sol| 42 |
+|Total:| 2,088|
