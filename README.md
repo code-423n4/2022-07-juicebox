@@ -72,7 +72,7 @@ Surface contracts glue core contracts together and manage funds. Anyone can writ
 #### Interfaces
 All interfaces are in scope.
 
-For more information on these contracts and how they fit together, please visit the [Architecture](https://info.juicebox.money/dev/learn/architecture) page of the docs. The bonus utility contracts listed at the bottom of this page are out of scope.
+For more information on these contracts and how they fit together, please visit the [Architecture](https://info.juicebox.money/dev/learn/architecture) page of the docs.
 
 #### External calls
 
@@ -95,3 +95,13 @@ See the [libraries directory](https://github.com/jbx-protocol/juice-contracts-v2
 - @openzeppelin/contracts/utils/introspection/IERC165.sol
 - @paulrberg/contracts/math/PRBMath.sol
 - @paulrberg/contracts/math/PRBMathUD60x18.sol
+
+
+### Out of Scope
+
+The following utility contracts are out of scope.
+
+- JBETHERC20ProjectPayer
+- JBETHERC20ProjectPayerDeployer
+- JBETHERC20SplitsPayer
+- JBETHERC20SplitsPayerDeployer
