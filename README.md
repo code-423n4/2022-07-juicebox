@@ -37,13 +37,12 @@ Go to the [Juicebox v2 Code4rena code repo](https://github.com/jbx-protocol/juic
 | Nicholas | nicholas#7777 | nnnnicholas | [nnnnicholas](https://twitter.com/nnnnicholas) |
 
 ## Contest Scope
+Consult the [Juicebox Contracts here](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5) (commit 828bf2f). We HIGHLY ADVISE you consult the comprehensive and high quality [Juicebox Documentation](http://info.juicebox.money). Salient details are summarized below for convenience, but the real docs are where you should start.
 
 ### In Scope
 The protocol is made up of 7 core contracts and 3 surface contracts. All of these contracts are **in scope**.
 
 #### Core contracts
-
-Consult the [Juicebox Contracts here](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5) (commit 828bf2f).
 
 Core contracts store all the independent components that make the protocol work. 
 
@@ -60,7 +59,6 @@ Core contracts store all the independent components that make the protocol work.
 #### Surface contracts
 
 Surface contracts glue core contracts together and manage funds. Anyone can write new surface contracts for projects to use.
-
 
 |File|SLOC|Description|
 |-|-|-|
