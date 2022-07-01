@@ -7,6 +7,8 @@
 - Starts July 1, 2022 20:00 UTC
 - Ends July 8, 2022 20:00 UTC
 
+Watch the [audit intro](https://youtu.be/FMMuuG-g3Ac) to learn more.
+
 # Juicebox Protocol
 
 ## What is Juicebox?
