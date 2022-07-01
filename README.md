@@ -6,6 +6,7 @@
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
 - Starts July 1, 2022 20:00 UTC
 - Ends July 8, 2022 20:00 UTC
+- The [Juicebox contracts are here](https://github.com/jbx-protocol/juice-contracts-v2-code4rena)
 
 # Juicebox Protocol
 
