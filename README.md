@@ -48,13 +48,14 @@ Core contracts store all the independent components that make the protocol work.
 
 |File|SLOC|Description|
 |-|-|-|
-|contracts/JBTokenStore.sol| 135 |Manage token minting, burning, and account balances.|
-|contracts/JBFundingCycleStore.sol| 287 |Manages funding cycle scheduling.|
-|contracts/JBProjects.sol| 42 |Stores project ownership and identifying information.|
-|contracts/JBSplitsStore.sol| 101 |Stores splits information for all groups of each project. Projects can create split groups for directing percents of a total token allocation to any address, any other Juicebox project, or any contract that inherits from the IJBSplitAllocator interface.|
-|contracts/JBPrices.sol| 26 |Manages and normalizes price feeds. |
-|contracts/JBOperatorStore.sol| 50 |Stores operator permissions for all addresses. Addresses can give permissions to any other address to take specific indexed actions on their behalf.|
-|contracts/JBDirectory.sol| 93 |Keeps a reference of which terminal contracts each project is currently accepting funds through, and which controller contract is managing each project's tokens and funding cycles.|
+|[contracts/JBTokenStore.sol](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5/contracts/JBTokenStore.sol)| 135 |Manage token minting, burning, and account balances.|
+|[contracts/JBFundingCycleStore.sol](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5/contracts/JBFundingCycleStore.sol)| 287 |Manages funding cycle scheduling.|
+|[contracts/JBProjects.sol](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5/contracts/JBProjects.sol)| 42 |Stores project ownership and identifying information.|
+|[contracts/JBSplitsStore.sol](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5/contracts/JBSplitsStore.sol)| 101 |Stores splits information for all groups of each project. Projects can create split groups for directing percents of a total token allocation to any address, any other Juicebox project, or any contract that inherits from the IJBSplitAllocator interface.|
+|[contracts/JBPrices.sol](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5/contracts/JBPrices.sol)| 26 |Manages and normalizes price feeds. |
+|[contracts/JBOperatorStore.sol](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5/contracts/JBOperatorStore.sol)| 50 |Stores operator permissions for all addresses. Addresses can give permissions to any other address to take specific indexed actions on their behalf.|
+|[contracts/JBDirectory.sol](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5/contracts/JBDirectory.sol)| 93 |Keeps a reference of which terminal contracts each project is currently accepting funds through, and which controller contract is managing each project's tokens and funding cycles.|
+
 
 #### Surface contracts
 
@@ -62,11 +63,11 @@ Surface contracts glue core contracts together and manage funds. Anyone can writ
 
 |File|SLOC|Description|
 |-|-|-|
-|contracts/JBController.sol| 361 |Stitches together funding cycles and community tokens, making sure all activity is accounted for and correct.|
-|contracts/abstract/JBPayoutRedemptionPaymentTerminal.sol| 598 |Generic terminal managing all inflows and outflows of funds into the protocol ecosystem.|
-|contracts/JBSingleTokenPaymentTerminalStore.sol| 314 |Manages all bookkeeping for inflows and outflows of funds from any IJBSingleTokenPaymentTerminal.|
-|contracts/JBETHPaymentTerminal.sol| 39 |Manages all inflows and outflows of ETH funds into the protocol ecosystem.|
-|contracts/JBERC20PaymentTerminal.sol| 42 |Manages all inflows and outflows of an ERC20 into the protocol ecosystem.|
+|[contracts/JBController.sol](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5/contracts/JBController.sol)| 361 |Stitches together funding cycles and community tokens, making sure all activity is accounted for and correct.|
+|[contracts/abstract/JBPayoutRedemptionPaymentTerminal.sol](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5/contracts/abstract/JBPayoutRedemptionPaymentTerminal.sol)| 598 |Generic terminal managing all inflows and outflows of funds into the protocol ecosystem.|
+|[contracts/JBSingleTokenPaymentTerminalStore.sol](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5/contracts/JBSingleTokenPaymentTerminalStore.sol)| 314 |Manages all bookkeeping for inflows and outflows of funds from any IJBSingleTokenPaymentTerminal.|
+|[contracts/JBETHPaymentTerminal.sol](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5/contracts/JBETHPaymentTerminal.sol)| 39 |Manages all inflows and outflows of ETH funds into the protocol ecosystem.|
+|[contracts/JBERC20PaymentTerminal.sol](https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5/contracts/JBERC20PaymentTerminal.sol)| 42 |Manages all inflows and outflows of an ERC20 into the protocol ecosystem.|
 |Total (Core + Surface contracts)| 2,088||
 
 #### Interfaces
