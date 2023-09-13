@@ -1,0 +1,650 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q3-2022 / juicebox-jul1
+==============================================================
+
+[06/30/2022 7:41 PM] kartoonjoy
+👋 Hello and welcome to the contest channel for the $75K USDC **Juicebox** contest!
+
+📆 Contest opens 07/01/2022 8:00 PM at (20:00 UTC) and runs through 07/08/2022 8:00 PM at (20:00 UTC) (7 days).
+
+Please give a warm welcome to the Juicebox team, particularly @nicholas, @jango, @twodam, @DrGorilla.eth, who will be available for questions either here in the channel or via DM.
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this contest, consider enabling notifications for this channel. 🐺 ⏰
+
+Contest Page: https://code4rena.com/contests/2022-07-juicebox-v2-contest
+
+{Embed}
+https://code4rena.com/contests/2022-07-juicebox-v2-contest
+Code4rena Juicebox V2 contest
+$75,000 USDC
+1 July 2022—8 July 2022
+Code4rena - ARCHIVE-Q3-2022 - juicebox-jul1 [992150836643893399].txt_Files/C4-banner-7C19B.png
+
+{Reactions}
+🔥 (20) 🚀 (11) 
+
+[07/01/2022 9:23 PM] nnnnicholas
+hey y'all! nicholas from juicebox here. if you have general questions, please reach out here. if you have private questions you can dm someone from the team. @jango is lead protocol dev and @DrGorilla.eth and @twodam are also very familiar with the codebase. thanks for competing in this contest, we're excited to learn what you find!
+
+{Reactions}
+🍌 (9) 👍 (9) 
+
+[07/02/2022 4:36 AM] bradmoon
+There is no code yet?
+
+
+[07/02/2022 4:47 AM] elku.cryptos
+would be really nice if the file names under scope section are linked to the github files(clickable).
+
+
+[07/02/2022 4:48 AM] elku.cryptos
+https://github.com/code-423n4/2022-07-juicebox
+
+
+[07/02/2022 9:25 AM] illilli000
+here you go: https://gist.github.com/IllIllI000/0717695e404a36d26350a175c9865e59
+
+{Reactions}
+thankyou (4) 
+
+[07/02/2022 11:15 AM] 0x1f8b
+> All interfaces are in scope.
+
+
+[07/02/2022 11:37 AM] illilli000
+updated
+
+
+[07/03/2022 10:33 AM] ak19966
+can anybody help.. I am not seeing any codes
+
+
+[07/03/2022 10:33 AM] ak19966
+?
+
+
+[07/03/2022 10:33 AM] ak19966
+I am looking at this link
+
+
+[07/03/2022 10:33 AM] ak19966
+https://github.com/code-423n4/2022-07-juicebox
+
+{Embed}
+https://github.com/code-423n4/2022-07-juicebox
+GitHub - code-423n4/2022-07-juicebox
+Contribute to code-423n4/2022-07-juicebox development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2022 - juicebox-jul1 [992150836643893399].txt_Files/98eb6165-b77a-40e6-8796-a14bc11b23e7-967C7
+
+
+[07/03/2022 10:34 AM] JohnSmith#1623
+Imagine reading contest description or at least this channel
+
+{Reactions}
+🔥 
+
+[07/03/2022 10:35 AM] JohnSmith#1623
+https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5
+
+{Embed}
+https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5
+GitHub - jbx-protocol/juice-contracts-v2-code4rena at 828bf2f3e7198...
+⚙️  Juicebox core V2 contracts. Contribute to jbx-protocol/juice-contracts-v2-code4rena development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2022 - juicebox-jul1 [992150836643893399].txt_Files/juice-contracts-v2-code4rena-47004
+
+
+[07/03/2022 10:35 AM] illilli000
+see the first line here pointing to a separate repo: https://github.com/code-423n4/2022-07-juicebox#how-to-setup-the-project
+
+
+[07/03/2022 10:35 AM] ak19966
+when I click on the view repo from code4rena page, it lead me there
+
+
+[07/03/2022 10:37 AM] JohnSmith#1623
+yeah, this is unusual, I agree, you can find link to contracts later in the contest description.
+
+
+[07/03/2022 10:38 AM] ak19966
+yup.. some sort of search required as if for bugs
+
+
+[07/03/2022 10:38 AM] ak19966
+I like it
+
+
+[07/03/2022 10:38 AM] ak19966
+thank you friends
+
+
+[07/03/2022 10:40 AM] JohnSmith#1623
+finding bugs gonna be much harder than finding link to repo they provided 🙂
+difficulty spike is real
+
+{Reactions}
+flashy (5) 
+
+[07/03/2022 10:41 AM] ak19966
+haha..
+
+
+[07/04/2022 8:13 AM] csanuragjain
+Really nice documentation 👍
+
+{Reactions}
+💯 (6) 🍌 (3) 
+
+[07/04/2022 9:29 PM] nnnnicholas
+hey wardens! sorry just saw this, wish I had been tagged
+
+
+[07/04/2022 9:30 PM] nnnnicholas
+the contracts are here (linked in the bullets at the top and again in `How to setup the project` and `Contest Scope`, but apologies if it was not clear nevertheless!)https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5
+
+{Embed}
+https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5
+GitHub - jbx-protocol/juice-contracts-v2-code4rena at 828bf2f3e7198...
+⚙️  Juicebox core V2 contracts. Contribute to jbx-protocol/juice-contracts-v2-code4rena development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2022 - juicebox-jul1 [992150836643893399].txt_Files/juice-contracts-v2-code4rena-47004
+
+
+[07/04/2022 9:32 PM] nnnnicholas
+awesome! including this in the readme now!!
+
+{Reactions}
+😁 
+
+[07/05/2022 7:51 AM] cloudjunky
+Not a 🐛 ! Typo in doco under RIsks - `If a project's funding cycles have no data source, delegate, split allocator, or ballot **constracts** attached, the consequences`
+
+{Reactions}
+flashy (2) 
+
+[07/05/2022 9:52 AM] philogy
+Looking at the docs I can see that the contracts have already been deployed to mainnet, are differences and/or errors in the deployment also in-scope for the contest?
+
+
+[07/05/2022 1:31 PM] jango420
+if you find something wrong that affects the public's interest, I'll personally make sure you get paid for the contribution. not sure its formally in scope
+
+
+[07/05/2022 1:32 PM] philogy
+Ah ok, so outside of the scope for the contest but covered in the form of a bounty program 👌
+
+
+[07/05/2022 1:33 PM] jango420
+yep
+
+
+[07/05/2022 1:34 PM] jango420
+nice, fixed!
+
+
+[07/05/2022 2:10 PM] hake_stake
+You can report typos in your QA report as non-critical, they are still considered part of the audit.
+
+{Reactions}
+100coverage (2) 🙏 
+
+[07/05/2022 2:36 PM] JohnSmith#1623
+```
+function distributePayoutsOf(
+    uint256 _projectId,
+    uint256 _amount,
+    uint256 _currency,
+    address _token,
+    uint256 _minReturnedTokens,
+    string calldata _memo
+  ) external virtual override returns (uint256 netLeftoverDistributionAmount) {
+    _token; // Prevents unused var compiler and natspec complaints.
+
+    return _distributePayoutsOf(_projectId, _amount, _currency, _minReturnedTokens, _memo);
+  }
+
+```
+What is the benefit of having unused variables like `_token`?
+
+
+[07/05/2022 2:56 PM] jango420
+the benefit is that this is a standard that can be adhered to by terminals that manage multiple tokens. In which case the _token arg would specify which exactly should be distributed.
+
+
+[07/05/2022 2:57 PM] jango420
+in the case of the ETH terminal, obv this isnt needed since it only manages one token.
+
+
+[07/05/2022 3:48 PM] jango420
+note: Issues with the oracle price resolvers are also in scope.
+
+
+[07/05/2022 4:20 PM] hake_stake
+Please include in repo with further details 🙂
+
+
+[07/05/2022 5:18 PM] acegawd
+@nicholas @jango who's available for a DM?
+
+
+[07/05/2022 5:19 PM] jango420
+sup
+
+
+[07/05/2022 8:00 PM] nnnnicholas
+hey wardens! hope the audit contest is going well for all of you! small reminder that you can reach out to @jango @DrGorilla.eth @twodam or me if you have private questions. looking forward to all of your vuln reports!
+
+{Reactions}
+hi5 (4) 
+
+[07/05/2022 8:01 PM] nnnnicholas
+audit contest description: https://github.com/code-423n4/2022-07-juicebox
+code to review: https://github.com/jbx-protocol/juice-contracts-v2-code4rena/tree/828bf2f3e719873daa08081cfa0d0a6deaa5ace5
+
+
+[07/05/2022 10:16 PM] nine_december
+Sent you a DM
+
+{Reactions}
+✅ 
+
+[07/06/2022 7:53 PM] eccentricexit
+@DrGorilla.eth I sent you a DM
+
+{Reactions}
+🍌 
+
+[07/06/2022 8:05 PM] drgorilla.eth
+answered you:)
+
+
+[07/07/2022 5:15 AM] svskaushik
+@jango  sent you a dm ser
+
+
+[07/07/2022 7:17 AM] Limbooo#3710
+@nicholas  @jango who’s available for a DM?
+
+{Reactions}
+quint 
+
+[07/07/2022 2:39 PM] jango420
+yooooo
+
+
+[07/07/2022 6:05 PM] nnnnicholas
+hey everybody 26 hours left in the competition. not too late to get started if you're just seeing this contest. please check out the linked message for relevant links. we've got some good questions coming in over DMs. happy hacking -juicebox
+
+{Reactions}
+😂 (2) 👍 (2) 
+
+[07/07/2022 8:24 PM] nnnnicholas
+for folks looking for creative angles for finding vulns, perhaps this 1.5 month old Juicebox v2 Funding Cycle bug will be inspiring. note: this is already patched in the repo you're auditing 
+https://github.com/jbx-protocol/juice-contracts-v2/blob/main/security/postmortem/5.24.2022.md
+
+{Embed}
+https://github.com/jbx-protocol/juice-contracts-v2/blob/main/security/postmortem/5.24.2022.md
+juice-contracts-v2/5.24.2022.md at main · jbx-protocol/juice-contra...
+⚙️  Juicebox core V2 contracts. Contribute to jbx-protocol/juice-contracts-v2 development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2022 - juicebox-jul1 [992150836643893399].txt_Files/juice-contracts-v2-BC73B
+
+{Reactions}
+👍 (4) 
+
+[07/08/2022 1:45 AM] 0xdjango
+Nice to meet you jango. I'm Django
+
+
+[07/08/2022 1:48 AM] ak19966
+can I DM you ?
+
+{Reactions}
+👍 
+
+[07/08/2022 2:29 AM] jango420
+Heelllzz yeah!
+
+
+[07/08/2022 12:04 PM] cryptphi
+Jango meets Django
+
+{Reactions}
+😂 
+
+[07/08/2022 1:06 PM] hake_stake
+https://tenor.com/view/huge-explosion-boom-explosive-gif-16819858
+
+{Embed}
+https://tenor.com/view/huge-explosion-boom-explosive-gif-16819858
+Code4rena - ARCHIVE-Q3-2022 - juicebox-jul1 [992150836643893399].txt_Files/huge-explosion-boom-93B49.png
+
+
+[07/08/2022 2:18 PM] nine_december
+The matrix was broken.
+
+
+[07/08/2022 2:22 PM] jango420
+my name is actually JDango
+
+{Reactions}
+😂 (4) 🍡 
+
+[07/08/2022 3:26 PM] horsefacts
+Perhaps that should be `JBDango` 😄
+
+{Reactions}
+😂 (5) 
+
+[07/08/2022 3:27 PM] 0xdjango
+Your d(jango) energy is admirable 😎
+
+
+[07/08/2022 3:31 PM] jango420
+LOL
+
+
+[07/08/2022 3:36 PM] svskaushik
+https://tenor.com/view/jamie-foxx-django-unchained-jamie-foxx-gif-11251504
+
+{Embed}
+https://tenor.com/view/jamie-foxx-django-unchained-jamie-foxx-gif-11251504
+Code4rena - ARCHIVE-Q3-2022 - juicebox-jul1 [992150836643893399].txt_Files/jamie-foxx-F2D81.png
+
+{Reactions}
+🤠 
+
+[07/08/2022 3:36 PM] svskaushik
+Sorry guys, couldn't let it go without this
+
+{Reactions}
+quint 
+
+[07/08/2022 8:02 PM] C4
+**🚨 CONTEST ALERT**
+
+@🐺wardens The **Juicebox v2** contest is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: the **Juicebox** team will review the findings over the next couple of days, and then we'll pass them off to the judge. Keep an eye on #📢announcements for regular updates on how the contest is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a gardener if you have questions along the way!
+
+{Reactions}
+chefskiss (11) 👍 (3) 
+
+[07/08/2022 8:19 PM] horsefacts
+gg everyone! I want to say that I really appreciated the Juicebox docs, especially the way you communicated project risks. It's rare to see that degree of detail and was very useful as a participant. I dig the openness of what y'all are building! Looking forward to the results.
+
+{Reactions}
+🎉 (17) 
+
+[07/08/2022 9:08 PM] jango420
+thanks everyone! loved this process, I learned a lot
+
+{Reactions}
+hi5 (3) 
+
+[07/09/2022 12:36 AM] haruxe
+yea the docs are really good! :FeelsOkayMan: :TeaTime:
+
+
+[07/13/2022 1:00 PM] ylv#5744
+gg everyone. Was quite a unique project with solid docs.
+
+
+[07/25/2022 9:03 AM] philogy
+Is there a way to get notified on progress / when the individual issues start getting discussed?
+
+{Reactions}
+👍 
+
+[07/30/2022 5:51 AM] Franfran#5067
+Can't wait !!
+
+
+[08/01/2022 7:18 PM] ylv#5744
+Yep, what is the deadline? Just curious. Like can it take 6 months or something?
+
+
+[08/01/2022 8:24 PM] nine_december
+It is taking something around one month atm since the contest closes until the awards are assigned
+
+{Reactions}
+👍 😓 (2) 
+
+[08/03/2022 6:11 PM] philogy
+I think this should be up next, Putty just had its rewards announced and it was right before, any day now!
+
+{Reactions}
+🔥 
+
+[08/03/2022 7:51 PM] Franfran#5067
+Wen wen
+
+
+[08/10/2022 9:10 PM] Franfran#5067
+is taking long 😦
+
+
+[08/10/2022 11:52 PM] Ignacio#9604
+https://tenor.com/view/the-office-steve-carell-michael-scott-thats-what-she-said-gif-20446601
+
+{Embed}
+https://tenor.com/view/the-office-steve-carell-michael-scott-thats-what-she-said-gif-20446601
+Code4rena - ARCHIVE-Q3-2022 - juicebox-jul1 [992150836643893399].txt_Files/the-office-steve-carell-ED861.png
+
+{Reactions}
+🤣 (5) 
+
+[08/19/2022 11:47 AM] ajtra#5030
+any news?
+
+
+[08/19/2022 11:59 AM] philogy
+I have no idea, taking way longer than expected. They announced the rewards for yield witch v2 first despite it being later, wondering what's taking so long too. Was my first contest so I'm waiting for the rewards before doing any more bc I want to see if it's worth the time
+
+
+[08/19/2022 1:33 PM] minh___
+I assume there was less participation and submissions for yield witch due to the lower prize pool, and also because there were other contests running at the same time iirc
+
+
+[08/19/2022 6:25 PM] rokinot
+plenty participated, but there was less code and a very low amount of vulnerabilities found
+
+
+[08/19/2022 8:20 PM] itsmetechjay
+🤑 🎉 Awards for **Juicebox V2**:
+
+$14,020.84 USDC » @Bernd 
+$11,055.17 USDC » @cccz 
+$6,473.84 USDC » @zzzitron 
+$5,370.83 USDC » @IllIllI 
+$4,428.88 USDC » @Roman 
+$3,859.26 USDC » @Philogy 
+$3,510.91 USDC » @0x52 
+$2,498.36 USDC » @hake | SmartSek 
+$1,929.63 USDC » @DimitarDimitrov 
+$1,303.56 USDC » 0x29A (@anon, @Rotcivegaf)
+$1,267.15 USDC » hubble (ksk2345, @shri4net)
+$1,161.18 USDC » AlleyCat
+$1,157.78 USDC » @ylv 
+$1,157.78 USDC » @dirk_y 
+$927.29 USDC » @thinklab 
+$895.13 USDC » @horsefacts 
+$885.64 USDC » @pashov 
+$799.78 USDC » @hyh 
+$799.78 USDC » @Ruhum 
+$713.69 USDC » @codexploder 
+$662.30 USDC » @Meera 
+$577.55 USDC » @bardamu 
+$577.55 USDC » @Alex The Entreprenerd 
+$568.39 USDC » @rbserver 
+$555.34 USDC » @robee 
+$395.03 USDC » @__141345__ 
+$374.22 USDC » @0xA5DF 
+$208.17 USDC » @0x1f8b 
+$184.91 USDC » @DefSec 
+$183.32 USDC » @Picodes | Angle 
+$175.27 USDC » @joestakey 
+$173.37 USDC » @fatherOfBlocks 
+$162.83 USDC » @simon135 
+$158.58 USDC » @jonatascm 
+$147.60 USDC » @Django | Saloon Finance 
+$147.37 USDC » @0xNazgul 
+$146.38 USDC » 0xf15ers (@remora0, @twojoy)
+$145.78 USDC » @Chom 
+$145.09 USDC » GimelSec (@rayn | GimelSec, @sces60107 | GimelSec)
+$142.37 USDC » @0xdanial 
+$135.07 USDC » @TomJ 
+$132.73 USDC » @Funen 
+$132.45 USDC » @Sm4rty 
+$131.86 USDC » @Ch_301 
+$131.86 USDC » @delfin454000 
+$131.51 USDC » @durianSausage 
+$131.51 USDC » @m_Rassska 
+$130.92 USDC » @Kaiziron 
+$130.83 USDC » @rajatbeladiya 
+$128.44 USDC » @Sloth 
+$128.44 USDC » Hawkeye (@0xwags, @0xmint)
+$128.10 USDC » @sach1r0 
+$128.10 USDC » @ReyAdmirado 
+$128.10 USDC » @MiloTruck 
+$128.10 USDC » @Bnke 
+$128.02 USDC » @brgltd 
+$127.51 USDC » @Waze 
+$127.51 USDC » @JC
+$127.51 USDC » @0v3rf10w 
+$127.51 USDC » @_Adam 
+$127.50 USDC » @Rohan 
+$127.43 USDC » @Noah3o6 
+$127.43 USDC » @jayfromthe13th 
+$127.43 USDC » @djxploit 
+$104.14 USDC » @0xNineDec
+
+{Reactions}
+🤑 (8) 🎉 (6) 
+
+[08/19/2022 8:21 PM] itsmetechjay
+$94.50 USDC » @Sahar 
+$92.68 USDC » @svskaushik 
+$89.27 USDC » @TerrierLover 
+$89.27 USDC » @samruna 
+$89.27 USDC » @chandr 
+$89.27 USDC » @aysha 
+$80.77 USDC » @0xKitsune 
+$53.10 USDC » @Cheeezzyyyy 
+$53.10 USDC » kebabsec (@okkothejawa, @FlameHorizon)
+$49.21 USDC » @Limbooo 
+$45.80 USDC » @Saintcode_ 
+$45.80 USDC » @RedOneN 
+$45.80 USDC » @c3phas 
+$41.64 USDC » @apostle0x01 
+$38.83 USDC » @UnusualTurtle 
+$38.83 USDC » @sashik_eth 
+$38.83 USDC » @JohnSmith 
+$38.83 USDC » @cRat1st0s 
+$38.83 USDC » @ajtra 
+$38.24 USDC » @Tutturu 
+$38.24 USDC » @Tomio 
+$38.24 USDC » @rfa 
+$38.24 USDC » @Metatron 
+$38.24 USDC » @Kaden 
+$38.24 USDC » @Ignacio 
+$38.24 USDC » @code-cipher 
+$38.23 USDC » @Randyyy 
+$38.23 USDC » @0xpathfindr 
+$38.23 USDC » @ElKu 
+$38.23 USDC » @mektigboy 
+$38.23 USDC » @PENGUN 
+$38.23 USDC » @LambdaTea 
+$18.28 USDC » @Franfran 
+$18.28 USDC » @hansfriese 
+$14.87 USDC » Green
+$14.87 USDC » @tabish.eth 
+$14.87 USDC » @tintin 
+$3.41 USDC » @cloudjunky 
+$3.41 USDC » @cryptphi 
+$3.41 USDC » @peritoflores 
+
+🏁 Findings summary
+---------------------------
+High risk findings: 36 total, 2 unique
+Med risk findings: 71 total, 15 unique
+Gas optimization reports: 74
+QA reports: 60
+
+Awards will be distributed on Polygon within the next 1-2 weeks. Congratulations all! 💸 💸 💸
+
+{Reactions}
+🎉 (12) 
+
+[08/19/2022 8:23 PM] philogy
+Let's go 🥳 
+My first contest
+
+{Reactions}
+👍 (11) 🎉 (18) hi5 (9) 
+
+[08/23/2022 1:19 PM] ylv#5744
+My first contest and got paid $1,157.78 for the only issue I submitted. Best game ever. Noob question, how we actually getting paid? Do we need to do something?
+
+
+[08/23/2022 1:32 PM] codingnamekiki
+l think you just chill and wait for them to arrive in your wallet. The awards will be distributed on Polygon within the next 1-2 weeks, count from the date, when the awards were announced. :chefskiss:
+
+{Reactions}
+🙏 
+
+[08/23/2022 1:33 PM] ylv#5744
+Polygon 😱 I guess time to use it.
+
+
+[08/23/2022 1:37 PM] codingnamekiki
+you are using polygon wallet right?
+
+
+[08/23/2022 2:45 PM] ylv#5744
+I mean, basically as long as you own your private key you have access to it. No worries. I can get access to my address on any chain.
+
+{Reactions}
+hi5 (3) 👍 
+
+[08/31/2022 5:29 PM] Noah3o6#2496
+in announcement its said that the awards are already distributed, I haven’t received the awards yet, what can I do?
+
+
+[08/31/2022 5:35 PM] itsmetechjay
+Please open a help desk request and we'll take a look. https://code4rena.com/help
+
+{Embed}
+https://code4rena.com/help
+Help | Code 423n4
+Need help with something? Contact us here.
+Code4rena - ARCHIVE-Q3-2022 - juicebox-jul1 [992150836643893399].txt_Files/C4-banner-7C19B.png
+
+{Reactions}
+✅ 
+
+[08/31/2022 5:43 PM] Noah3o6#2496
+sent, thanks for the help!
+
+
+[08/31/2022 5:48 PM] Ignacio#9604
+are you using metamask?
+
+
+[08/31/2022 5:50 PM] Noah3o6#2496
+nope, exodus wallet
+
+
+[08/31/2022 5:52 PM] Ignacio#9604
+ok
+
+
+[09/02/2022 10:14 PM] Saintcode_#8823
+yeah
+
+
+[09/02/2022 10:14 PM] Saintcode_#8823
+Is there a problem?
+
+
+==============================================================
+Exported 95 message(s)
+==============================================================
